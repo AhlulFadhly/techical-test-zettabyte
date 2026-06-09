@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero {
+    background: #1a2a61;
+    color: white;
+    text-align: center;
+    padding: 70px 70px 200px;
+}
+
+.hero h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.hero p{
+    max-width: 500px;
+    margin: auto;
+}
+
+.container-card{
+    display: flex;
+    gap: 30px;
+    margin-top: -100px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    background: white;
+    width: 250px;
+    box-shadow: 0 5px 10px rgb(0,0,0,0.2);
+    transition: 0.3s;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.card.selected{
+    border: 2px solid;
+    transform: scale(1.1);
+}
+
+.card-header{
+    background: #5c5c5c;
+    padding: 20px;
+    color: white;
+}
+
+.card-body{
+    padding: 20px;
+}
+
+.price{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.matauang{
+    vertical-align: top;
+}
+
+.amount{
+    font-size: 50px;
+}
+
+.card ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.card button{
+    display: block;
+    margin: auto;
+    padding: 12px 25px;
+    background: #5678e9;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.fag{
+    margin-top: 50px;
+}
+
+.fag h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.grip-fag{
+    display: flex;
+    max-width: 700px;
+    margin: auto;
+    gap: 40px;
+}
+
+.grip-fag h4{
+    margin-bottom: 20px;
+}
